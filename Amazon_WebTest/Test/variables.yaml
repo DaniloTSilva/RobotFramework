@@ -1,0 +1,10 @@
+############### VARIÁVEIS DO PROJETO ########################
+
+
+
+BROWSER:                  firefox
+URLEmail:                 https://www.amazon.com.br/
+campodePesquisa:          twotabsearchtextbox
+botaodePesquisa:          nav-search-submit-button
+
+

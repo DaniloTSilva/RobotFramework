@@ -1,11 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
 
-*** Variables ***
-${URLEmail}                 https://www.amazon.com.br/
-${campodePesquisa}          twotabsearchtextbox
-${botaodePesquisa}          nav-search-submit-button
-
 
 
 *** Keywords ***

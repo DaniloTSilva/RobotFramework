@@ -3,10 +3,6 @@
 Library    SeleniumLibrary
 
 
-*** Variables ***
-${BROWSER}        firefox
-
-
 
 *** Keywords ***
 Abrir navegador
