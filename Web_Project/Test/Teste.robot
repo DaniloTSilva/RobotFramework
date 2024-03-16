@@ -14,5 +14,5 @@ Caso de Teste 01 - Abrir site da Amazon
     [Tags]             Abrir email
     HomePage.Quando eu abrir o site da Amazon
     HomePage.E clicar no campo de pesquisa
-    HomePage.E digitar "iPhone 12 128GB"
+    HomePage.E digitar "Nintendo Switch OLED"
     HomePage.E clicar em pesquisar
