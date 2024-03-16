@@ -7,7 +7,7 @@ Library          OperatingSystem
 Library          String
 Resource         ../resources/authentication.robot
 Resource         ../resources/keywords.robot
-Test Setup       Efetuar autenticação Bearer token
+# Test Setup       Efetuar autenticação Bearer token
 
 
 
