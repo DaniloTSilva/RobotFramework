@@ -1,0 +1,26 @@
+##################################### AMBIENTE DE HOMOLOGAÇÃO ####################################
+
+#URL DO TOKEN DEV
+
+AUTHENTICATION:           https://hom-token/api
+
+
+#URL DA API DE POSIÇÃO
+
+URL_CONSULTA_API:       htpps://api.hom/consultapi-consultacliente
+
+
+#BODY DO TOKEN DE AUTENTICAÇÃO
+
+grantType:               credenciais_cliente
+client_id:               075315f9-3942-4e88-bd7b-f521eae81264
+cliente_secret:          3f9ab4c7-d4a7-4b38-bffa-8bcfe52104bd
+
+
+
+#HEADERS DA API
+
+x-apigateway-api-id:      0141b54780
+x-apikey:                 b25e27a9-b419-44cc-973a-61bc26b7564e
+application/json:         application/json
+application/pdf:          application/pdf

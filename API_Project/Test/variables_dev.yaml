@@ -1,0 +1,26 @@
+##################################### AMBIENTE DE DESENVOLVIMENTO ####################################
+
+#URL DO TOKEN DEV
+
+AUTHENTICATION:           https://dev-token/api
+
+
+#URL DA API DE POSIÇÃO
+
+URL_CONSULTA_API:       htpps://api.dev/consultapi-consultacliente
+
+
+#BODY DO TOKEN DE AUTENTICAÇÃO
+
+grantType:               credenciais_cliente
+client_id:               30154700-a03c-4a31-a505-dfe69948c759
+cliente_secret:          53a812a9-4205-4464-bc80-c7eb4c51ee2f
+
+
+
+#HEADERS DA API
+
+x-apigateway-api-id:      a8bc0c21ux
+x-apikey:                 3797f872-fe26-48ed-9de3-c5866559677e
+application/json:         application/json
+application/pdf:          application/pdf
