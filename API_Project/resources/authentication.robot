@@ -37,5 +37,5 @@ Efetuar autenticação Bearer token
     Set Suite Variable            ${ACCESS_TOKEN}
     ...                           Bearer ${RESPOSTA.json()['access_token']}
     
-    Log    ${RESPOSTA.json}
+    Log    ${RESPOSTA.content}
 
