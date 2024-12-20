@@ -14,7 +14,7 @@ URL_CONSULTA_API:       htpps://api.dev/consultapi-consultacliente
 
 grantType:               credenciais_cliente
 client_id:               30154700-a03c-4a31-a505-dfe69948c759
-cliente_secret:          53a812a9-4205-4464-bc80-c7eb4c51ee2f
+client_secret:          53a812a9-4205-4464-bc80-c7eb4c51ee2f
 
 
 
