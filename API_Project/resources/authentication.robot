@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    Documentação da API: Github
+Documentation     Documentação da API: Github
 Library           RequestsLibrary
 Library           Collections
 Library           OperatingSystem

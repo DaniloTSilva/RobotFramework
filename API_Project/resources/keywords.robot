@@ -7,7 +7,7 @@ Library          String
 Library          JSONLibrary
 Library          FakerLibrary
 Library          DateTime
-Library    RequestsLibrary
+Library          RequestsLibrary
 Resource         ../resources/authentication.robot
 
 

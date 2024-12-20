@@ -9,12 +9,14 @@ Library             String
 Resource            ../resources/authentication.robot
 Resource            ../resources/keywords.robot
 Test Setup         Efetuar autenticação Bearer token
+
+
 ############################## AÇÕES ###################################################
 
 
 *** Test Cases ***
 CT01 - Deve realizar uma consulta via API
-    [Tags]    teste api
+    [Tags]    Teste Api
     Efetuar consulta via API
     # Dado que eu tenha uma API
     # E que esteja com as devidas credenciais

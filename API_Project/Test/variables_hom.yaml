@@ -5,7 +5,7 @@
 AUTHENTICATION:           https://hom-token/api
 
 
-#URL DA API DE POSIÇÃO
+#URL DA API CONSULTA CLIENTE
 
 URL_CONSULTA_API:       htpps://api.hom/consultapi-consultacliente
 

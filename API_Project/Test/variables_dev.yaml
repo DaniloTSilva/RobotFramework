@@ -5,7 +5,7 @@
 AUTHENTICATION:           https://dev-token/api
 
 
-#URL DA API DE POSIÇÃO
+#URL DA API CONSULTA CLIENTE
 
 URL_CONSULTA_API:       htpps://api.dev/consultapi-consultacliente
 
