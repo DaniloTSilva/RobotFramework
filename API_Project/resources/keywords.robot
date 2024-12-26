@@ -55,7 +55,9 @@ Efetuar consulta via API
 ############################# ASSERTIVA DO CASO DE TESTE ###############################
 
     Log            ${resp.json()[0]['nome']}
-    ${resp}    Evaluate    ${resp.json()[0]['nome']}
+    Log            ${resp.json()[0]['idade']}
+    ${resp}    Evaluate    ${resp.json()[0]['nome']}    
+    ${resp}    Evaluate    ${resp.json()[0]['idade']} > 30
     Should Be Equal    True    ${resp} 
 
 
@@ -76,8 +78,8 @@ Efetuar cadastro via API
 
 ####################### BODY ############################################   
     ${json}        Load Json From File    ../resources/data/input/massa_de_teste.json
-    ${randomic_datainicio}    Get Current Date    UTC    -30 days +3 hours
-    ${json_object}    Update Value To Json    ${json}    $..data_inicio    ${randomic_datainicio}
+    ${randomic_data_inicio}    Get Current Date    UTC    -30 days +3 hours
+    ${json_object}    Update Value To Json    ${json}    $..data_inicio    ${randomic_data_inicio}
     ${randomic_data_vencimento}    Get Current Date    UTC    +365 days -3 hours
     ${json_updated}    Update Value To Json    ${json_object}    $..data_vencimento    ${randomic_data_vencimento}
 
@@ -102,6 +104,8 @@ Efetuar cadastro via API
 ############################# ASSERTIVA DO CASO DE TESTE ###############################
 
     Log            ${resp.json()[0]['nome']}
-    ${resp}    Evaluate    ${resp.json()[0]['nome']}
+    Log            ${resp.json()[0]['idade']}
+    ${resp}    Evaluate    ${resp.json()[0]['nome']}    
+    ${resp}    Evaluate    ${resp.json()[0]['idade']} > 30
     Should Be Equal    True    ${resp} 
 
